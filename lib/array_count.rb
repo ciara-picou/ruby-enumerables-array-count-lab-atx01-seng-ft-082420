@@ -14,5 +14,5 @@ def count_empty_strings(array)
 end
 i += 1
 end
-string_array.empty?.count
+string_array.count{ |element| element.empty? }
 end
